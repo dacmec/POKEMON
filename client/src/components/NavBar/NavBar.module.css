@@ -1,0 +1,21 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding: 10px;
+  }
+  
+  .mainContainer a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .mainContainer a:hover {
+    background-color: #333;
+    color: #fff;
+  }

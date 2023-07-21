@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  .about {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+    width: 99vw;
+    background-color: rgb(230, 198, 179);
+    flex-wrap: wrap;
+    /* font-family: 'Among'; */
+    letter-spacing: .2rem;
+    font-size: 1rem;
+    overflow-x: hidden;
+    /* background-image: url('../../assets/poker.jpg'); */
+    background-repeat: no-repeat;
+    background-size: center;
+    background-attachment: fixed;
+  }
+  
+  .button {
+    cursor: pointer;
+    width: 20vw;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    
+    font-weight: bold;
+    
+  }
+  
+  .title {
+    padding: 1rem;
+    /* background-color: #572306; */
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .subtitle {
+    background-color: rgba(252, 200, 176, 0.514);
+    /* padding: 1rem; */
+    border-radius: 1px;
+  }
+  
+  .img {
+    width: 20vw;
+    margin: 0 100vw;
+    min-width: 100px;
+    border-radius: 40px;
+    transition: all 400ms ease;
+  }
+  
+  .img:hover {
+    transform: scale(1.05);
+    transition-duration: .4s;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap: 1rem; */
+    padding: 1rem;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+    background-color: rgba(252, 200, 176, 0.514);
+    border-radius: 2rem;
+    padding: 2rem;
+  }
+  
+  .links > a {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .icon {
+    width: 7vw;
+    transition: all 400ms ease;
+  }
+  
+  .icon:hover {
+    transform: translateY(-7%)
+  }

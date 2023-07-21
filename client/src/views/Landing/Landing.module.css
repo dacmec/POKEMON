@@ -1,0 +1,23 @@
+/* Estilos generales */
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Utilizamos min-height en lugar de height */
+    background-image: url("../../assets/poker.jpg");
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #27ae60;
+  }

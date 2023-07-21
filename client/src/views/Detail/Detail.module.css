@@ -1,0 +1,53 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-image: url("../../assets/detail.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.3); /* Hacemos la tarjeta transparente */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  margin-right: auto; /* Alinear a la derecha */
+  max-height: 900px;
+
+}
+
+.pokemonDetails {
+  display: flex;
+  align-items: center;
+}
+
+.pokemonImage {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.pokemonImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.details {
+  flex: 1;
+  background-color: rgb(140, 127, 255, 0.1);
+}
+
+.detailItem {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #000000; /* Cambiamos el color del texto a negro */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+}

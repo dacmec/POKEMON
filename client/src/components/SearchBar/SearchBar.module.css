@@ -1,0 +1,48 @@
+/* SearchBar.module.css */
+
+/* Estilos del contenedor principal */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Estilos del formulario */
+  .form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f1f1f1;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  /* Estilos del campo de búsqueda */
+  .input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  /* Estilos del botón de búsqueda */
+  .searchButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* Estilos del botón de borrar filtros */
+  .clearButton {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
